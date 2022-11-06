@@ -34,7 +34,7 @@ st.dataframe(stu_sorted)
 
 
 # BOX PLOTS
-st.header("Display box charts for metrics:")
+st.header("Display box plots for metrics:")
 metric = st.selectbox("Select metric", stu.columns.drop(nonNumerical))
 st.write("Average: ", round(stu[metric].mean(), 2))
 boxplot = px.box(stu[metric])
