@@ -1,0 +1,73 @@
+
+Chris: 
+People who have complaints should probably not receive the promo
+
+We can possibly correlate average teammate rating with other data such as money spent
+
+People who are in the top 10% of highest days since last cohort maybe should not receive the promo
+
+People earning the highest incomes and shortest days since last cohort, especially those who have high minutes and overall engagement
+with Headstarter should definitely receive the promo
+
+People with high site visits, high minutes coding, low degrees, and but low money spent should be targeted
+
+In-college and bachelor's are probably our primary demographic generally
+
+We can look at whether or not highest leaderboard rank people 
+
+We want people who: Are in college or have a bachelor's, are young, have a low amount of days since last cohort,
+have a high number of time on headstarter, more referrals, high emails open (especially no one who has 0), a modest
+number of courses purchased*, high headstarter rating, and no complaints. A high income or probabiltiy of offer may be indicative
+of the person not needing Headstarter and therefore should not receive the discount. 
+
+*A high amount spent on courses/Headstarter indicates that the person may not care about spending a lot of money
+and so giving them a discount would be a waste/loss.
+
+
+People who have a high number of time spent on headstarter and a low headstarter rating shoud definitely not get the discount
+
+
+Sebastian:
+    -Hosting web app from computer 
+
+
+
+
+Outline: 
+
+Intro: who we are and what the queastion was 
+
+
+Probelms: that arrose and how we solved it
+        -which data is useful?
+            -started by calculating averages 
+            - made graphs and comapred the averages to help understand any correlation
+                VVV-------CORELATIONS WE FOUND HERE----VVV
+                
+    
+
+                VVV -----GRAPHS WE USED------VVV
+            
+
+
+
+
+     -AWS ATTEMPT   
+        -how can others view it and use it?
+            -AWS server ec2 instance
+                -created on AWS and SSH into the server through the terminal
+                                                                    ssh -i hackathon.pem ec2-user@35.90.195.70
+                    -pushed throug git hub repository 
+                - didnt connect? private network?
+                                                                      s3://acmsju/Headstarter-Student-Analysis-main.zip
+            -Used AWS bucket S3 
+to push code as well
+                - pushed but still wont connect.
+                -private network. connectivity host issues 
+
+
+
+
+
+
+Showing our program and presenting data we found.
